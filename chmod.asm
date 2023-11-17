@@ -49,6 +49,6 @@ main:
     ; Zakończenie programu
     mov eax, 0
     ret
-
-
+; nasm -f elf chmod.asm -o chmod.o
+; gcc -m32 chmod.o -o chmod
 
